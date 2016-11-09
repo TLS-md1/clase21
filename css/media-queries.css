@@ -1,14 +1,60 @@
 /*Queries*/
 @media only screen and (min-width: 320px) and (max-width: 420px) {
   body{background-color: green}
+  #principal .main-right{
+  	display: none;
+  }
+  #principal .main-left{
+  	width: 100%;
+  }
 }
 
 @media only screen and (min-width: 421px) and (max-width: 720px){
   body{background-color: yellow}
+  #principal .main-right{
+  	display: none;
+  }
+  #principal .main-left{
+  	width: 100%;
+  }
+
+  header .header-right ul{
+  	display: none;
+  }
+  header .header-left{
+  	width: 100%;
+  	text-align: center;
+  }
+
+  #slider{
+  	padding: 75px 0;
+  }
+
+  #principal .main-left article{
+  	width: 95%;
+  	margin:0 auto;
+  	padding: 1%;
+  	background-color: black;
+  	margin-top: 10px;
+  	display: block;
+  }
+  #principal .main-left article h2{
+  	font-size: 24px;
+  }
+  #principal .main-left article p{
+  	font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 721px) and (max-width: 960px){
   body{background-color: blue}
+  
+  #principal .main-right{
+  	display: none;
+  }
+  #principal .main-left{
+  	width: 100%;
+  }
 }
 
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
