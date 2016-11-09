@@ -1,0 +1,98 @@
+/*CSS principal*/
+
+header{
+	background-color: gray;
+}
+
+	header .header-left,
+	header .header-right{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	header .header-left{
+		width: 30%;
+	}
+		header .header-left img{}
+
+	header .header-right{
+		width: 68%;
+		text-align: right;
+	}
+		header .header-right ul{}
+			header .header-right ul li{
+				display: inline-block;
+				vertical-align: top;
+			}
+				header .header-right ul li a{
+					display: inline-block;
+					color: #ffffff;
+				}
+
+#slider{
+	padding: 150px 0;
+	background-color: orange;
+	color: #ffffff;
+	text-align: center;
+}
+
+#principal{
+	background-color: black;
+}
+	#principal .main-left,
+	#principal .main-right{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#principal .main-left{
+		width: 70%;
+		background-color: red;
+	}
+		#principal .main-left article{
+			width: 30.3333%;
+			padding: 1%;
+			display: inline-block;
+			vertical-align: top;
+		}
+			#principal .main-left article img{
+				width: 100%;
+				height: auto;
+			}
+			#principal .main-left article h2{
+				font-size: 18px;
+				color: #ffffff;
+			}
+			#principal .main-left article p{
+				font-size: 14px;
+				color: #ffffff;
+			}
+
+	#principal .main-right{
+		width: 28%;
+		background-color: green;
+	}
+	#principal .main-right aside{}
+		#principal .main-right aside ul{}
+			#principal .main-right aside ul li{
+				margin-bottom: 10px; 
+			}
+				#principal .main-right aside ul li a{
+					width: 80%;
+				}
+
+		#principal .main-right aside a{
+			padding: 10px 0px;
+			display: inline-block;
+			width: 100%;
+			margin: 0 auto;
+			background-color: gray;
+			text-align: center;
+		}
+
+footer{
+	color: black;
+	text-align: center;
+	padding: 15px 0;
+	background-color: yellow;
+}
